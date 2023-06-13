@@ -1,0 +1,19 @@
+{
+  "name": "pairing-be",
+  "version": "0.1.0",
+  "author": "Tom Godber",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.5.0",
+    "jest-extended": "^3.2.3"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended/all"
+    ]
+  }
+}
